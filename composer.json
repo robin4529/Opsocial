@@ -1,0 +1,19 @@
+{
+    "name": "robin/opp",
+    "description": "A simple project",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ibrahimrobin",
+            "email": "ibrahimrobin00@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload" :{
+        "psr-4" :{
+            "App\\" : "app"
+        }
+    }
+}
